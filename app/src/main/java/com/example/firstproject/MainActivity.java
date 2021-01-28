@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
 //                onDestroy();
             }
         });
-
+    // ini komentar
+    // cuma untuk test
     }
 }
