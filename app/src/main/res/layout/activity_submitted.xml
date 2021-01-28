@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Submitted">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_margin="35px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Biodata"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_name1"
+        android:layout_below="@id/tv_title"
+        android:textSize="20sp"
+        android:layout_margin="40px"
+        android:text="halo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_alamat1"
+        android:layout_below="@id/tw_name1"
+        android:textSize="20sp"
+        android:text="halo"
+        android:layout_margin="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_born1"
+        android:layout_below="@id/tw_alamat1"
+        android:textSize="20sp"
+        android:text="halo"
+        android:layout_margin="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_Mail1"
+        android:layout_below="@id/tw_born1"
+        android:textSize="20sp"
+        android:text="halo"
+        android:layout_margin="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_HP"
+        android:layout_below="@id/tw_Mail1"
+        android:text="halo"
+        android:textSize="20sp"
+        android:layout_margin="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/thanks"
+        android:layout_below="@+id/tw_HP"
+        android:text="' Terima Kasih Telah mengisi dengan Baik '"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

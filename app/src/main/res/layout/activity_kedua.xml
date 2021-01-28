@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityKedua">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_margin="35px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Biodata"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_name"
+        android:layout_below="@id/tv_title"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20px"
+        android:text="Nama : "
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_address"
+        android:layout_below="@id/tw_name"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20px"
+        android:text="Alamat : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_TTL"
+        android:layout_below="@id/tw_address"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20px"
+        android:text="TTL : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_email"
+        android:layout_below="@id/tw_TTL"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20px"
+        android:text="Email : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tw_phone"
+        android:layout_below="@id/tw_email"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20px"
+        android:text="No. HP : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/tw_nama"
+        android:layout_below="@id/tv_title"
+        android:layout_toRightOf="@id/tw_name"
+        android:textSize="15sp"
+        android:width="500px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/tw_alamat"
+        android:layout_below="@id/tw_name"
+        android:layout_toRightOf="@id/tw_address"
+        android:textSize="15sp"
+        android:width="500px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/tw_lahir"
+        android:layout_below="@id/tw_address"
+        android:layout_toRightOf="@id/tw_TTL"
+        android:textSize="15sp"
+        android:width="500px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/tw_Mail"
+        android:layout_below="@id/tw_lahir"
+        android:layout_toRightOf="@id/tw_email"
+        android:textSize="15sp"
+        android:width="500px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/tw_HP"
+        android:layout_below="@id/tw_email"
+        android:layout_toRightOf="@id/tw_phone"
+        android:textSize="15sp"
+        android:width="500px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_below="@id/tw_phone"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:backgroundTint="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
